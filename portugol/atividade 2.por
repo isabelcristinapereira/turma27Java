@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 programa
 {
 	
@@ -5,6 +6,15 @@ programa
 	{
 	real anos, meses, dias, idade
 		escreva("qual a sua idade ? ")
+=======
+programa
+{
+	
+	funcao inicio()
+	{
+	real anos, meses, dias, idade
+		escreva("qual a sua idade ? ")
+>>>>>>> ff1783701e4d5a7fe3db106e28e4d15a939190c7
 		leia ( anos )
 		escreva ( " qual a sua idade em meses ? " )
 		leia ( meses )
@@ -16,8 +26,13 @@ programa
 		
 		
 		
+<<<<<<< HEAD
 	}
 }
+=======
+	}
+}
+>>>>>>> ff1783701e4d5a7fe3db106e28e4d15a939190c7
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.

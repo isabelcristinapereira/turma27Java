@@ -1,9 +1,16 @@
 programa
 {
+<<<<<<< HEAD
 	inclua biblioteca Matematica
 	
 	funcao inicio()
 	{
+=======
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+>>>>>>> ff1783701e4d5a7fe3db106e28e4d15a939190c7
 		inteiro numeroInteiro=0 
 		escreva("digite um número qualquer")
 		leia(numeroInteiro)
@@ -19,9 +26,15 @@ programa
 		senao {
 			escreva("esse numero é impar")
 		}
+<<<<<<< HEAD
 	}
 	
 }
+=======
+	}
+	
+}
+>>>>>>> ff1783701e4d5a7fe3db106e28e4d15a939190c7
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.

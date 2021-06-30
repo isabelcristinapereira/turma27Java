@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 programa
 {
 	
 	funcao inicio()
 	{
+=======
+programa
+{
+	
+	funcao inicio()
+	{
+>>>>>>> ff1783701e4d5a7fe3db106e28e4d15a939190c7
 		real idadeDias
       real meses , anos , dias
 	
@@ -14,8 +22,13 @@ programa
 	leia (dias)
 	idadeDias = 365 * anos + 30 * meses + dias
 	escreva ("sua idade em dias é: " , 365 * anos + 30 * meses + dias)
+<<<<<<< HEAD
 	}
 }
+=======
+	}
+}
+>>>>>>> ff1783701e4d5a7fe3db106e28e4d15a939190c7
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
