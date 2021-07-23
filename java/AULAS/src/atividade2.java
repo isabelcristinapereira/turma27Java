@@ -8,11 +8,13 @@ import java.util.Scanner;
 
 public class atividade2 {
 	public static void main(String[]args) {
-		int dado[]=new int[3];
+		int dado[]=new int[10];
 		int media;
 		int maiorOcorrencia=0;
 		int somador=0;
-		char op;
+		//char op;
+		//o sorteador automatico vai ler do numero 1 ao numero 6
+		//para nao precisar colocar na mao.
 		 //criando um sorteador, usando javautilrandom
 		Scanner leia=new Scanner(System.in);//isso é pra receber a informação0
 		Random sort=new Random();
