@@ -55,7 +55,9 @@ public class UsuarioService {
 		Optional <Usuario> usuario= usuarioRepository.findByUsuario(usuarioLogin.get().getUsuario());
 		if (usuario.isPresent()) {
 			if(encoder.matches(usuarioLogin.get().getSenha(), usuario.get().getSenha())) {
-				
+				String auth= usuarioLogin.get().getUsuario()+ ":" + usuarioLogin.get().getSenha();
+				byte[] encodedAuth = Base64.encodeBase64(auth.getBytes(Charset.forName("US-ASCII")));
+				String authHeader= "Basic" + new String (encodedAuth); 
 			}
 		}
 		
