@@ -41,7 +41,7 @@ public class Usuario {
 	private String senha;
 	
 	@Column(name = "dt_nascimento")
-	@JsonFormat(pattern="yyyy-MM-dd")
+	@JsonFormat(pattern="yyyy-MM-dd") //formato da data.
     private LocalDate dataNascimento;
 	
 	@OneToMany (mappedBy = "usuario", cascade = CascadeType.REMOVE)
